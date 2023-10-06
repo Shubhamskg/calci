@@ -2,19 +2,42 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .ot-div{
-    background-color: azure;
+    background-color: grey;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    /* margin-left: 550px;
+    margin-top: 50px; */
+    margin:auto;
+    margin-top: 30px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .in-div{
     background-color: bisque;
     text-align: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
 }
 
+.in-div :hover{
+    background-color: red;
+    color: white;
+}
 .btn{
     /* font-size: 3rem; */
+    background-color: white;
+    margin-right: 10px;
     margin: 4px 2px;
     padding: 10px 10px;
     height: 70px;
@@ -23,6 +46,14 @@ body{
     border-radius: 18px;
 }
 
+.by{
+    font-size: 24px;
+    text-align: right;
+    padding-top: 22px;
+    padding-bottom: 10px;
+    background-color: grey;
+    color: white;
+}
 /* .in-div input{
     border: 1px solid beige;
 }
@@ -33,6 +64,10 @@ body{
 } */
 
 input {
+    margin: 10px;
     outline: none;
+    height:100px;
+    width: 300px;
+    border-radius: 5px;
   }
   
