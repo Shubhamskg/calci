@@ -1,0 +1,38 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+
+.ot-div{
+    background-color: azure;
+}
+
+.in-div{
+    background-color: bisque;
+    text-align: center;
+}
+
+.btn{
+    /* font-size: 3rem; */
+    margin: 4px 2px;
+    padding: 10px 10px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid gray;
+    border-radius: 18px;
+}
+
+/* .in-div input{
+    border: 1px solid beige;
+}
+
+.in-div input[type=text]:focus{
+    border: 1px solid rgb(212, 212, 13);
+    background-color: rgb(69, 215, 137);
+} */
+
+input {
+    outline: none;
+  }
+  
